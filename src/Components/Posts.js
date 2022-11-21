@@ -30,6 +30,13 @@ function Post(props) {
     }
   }
 
+  function likeImagem() {
+    if (!Like) {
+        setLike(true)
+        setContador(contador + 1)
+    }
+}
+
   return (
     <div className="post" data-test="post">
       <div className="topo">
@@ -43,7 +50,7 @@ function Post(props) {
       </div>
 
       <div className="conteudo">
-        <img src={post} alt="Post" data-test="post-image" />
+        <img src={post} alt="Post" data-test="post-image" onClick={likeImagem}/>
       </div>
 
       <div className="fundo">
