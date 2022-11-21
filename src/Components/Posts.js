@@ -79,7 +79,7 @@ function Post(props) {
           <img src={imagemCurtida} alt="Curtida" />
           <div className="texto">
             Curtido por <strong>{curtida}</strong> e{" "}
-            <strong>outras <p data-test='likes-number'>{contador.toLocaleString('pt-BR')}</p> pessoas</strong>
+            <strong>outras <span data-test='likes-number'>{contador.toLocaleString('pt-BR')}</span> pessoas</strong>
           </div>
         </div>
       </div>
