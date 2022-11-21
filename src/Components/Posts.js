@@ -68,9 +68,9 @@ function Post(props) {
           </div>
           <div>
             {Salvo ? (
-              <ion-icon onClick={salvarPost} name="bookmark"></ion-icon>
+              <ion-icon onClick={salvarPost} name="bookmark" data-test='save-post'></ion-icon>
             ) : (
-              <ion-icon onClick={salvarPost} name="bookmark-outline"></ion-icon>
+              <ion-icon onClick={salvarPost} name="bookmark-outline" data-test='save-post'></ion-icon>
             )}
           </div>
         </div>
@@ -79,7 +79,7 @@ function Post(props) {
           <img src={imagemCurtida} alt="Curtida" />
           <div className="texto">
             Curtido por <strong>{curtida}</strong> e{" "}
-            <strong>outras {contador.toLocaleString('pt-BR')} pessoas</strong>
+            <strong>outras <p data-test='likes-number'>{contador.toLocaleString('pt-BR')}</p> pessoas</strong>
           </div>
         </div>
       </div>

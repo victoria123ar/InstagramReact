@@ -34,7 +34,7 @@ export default function Usuario({ imagem, login, nome }) {
       <div className="texto">
         <strong>{login}</strong>
         <span>
-          {nomeUsuario}
+          <p data-test='name'>{nomeUsuario}</p>
           <ion-icon
             onClick={mudarNome}
             name="pencil"
