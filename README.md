@@ -1,10 +1,10 @@
-# Instagram Clone
+# Instagram React
 
-Bem-vindo ao Instagram Clone! Este é um projeto em React que replica algumas funcionalidades básicas do aplicativo Instagram.
+Bem-vindo ao Instagram React! Este é um projeto em React que replica algumas funcionalidades básicas do aplicativo Instagram.
 
 ## Funcionalidades
 
-O Instagram Clone possui as seguintes funcionalidades:
+O Instagram React possui as seguintes funcionalidades:
 
 - Curtir publicações: possibilita curtir as publicações que gosta.
 - Edição de perfil: oferece a opção de alterar a foto de perfil e o nome de usuário.
